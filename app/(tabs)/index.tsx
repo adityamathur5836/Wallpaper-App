@@ -37,9 +37,6 @@ export default function explore() {
       <Carousel
   width={width}
   data={carouselItems}
-  autoPlay
-  autoPlayInterval={1500} 
-  loop 
   onSnapToItem={(index) => console.log('current index:', index)}
   renderItem={({ index }) => (
     <>
